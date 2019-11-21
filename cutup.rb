@@ -23,3 +23,8 @@ puts phrases.shuffle
 puts
 puts "-- JOINS --"
 phrases.size.times { puts "#{phrases.sample} #{phrases.sample}" }
+
+
+puts
+puts "-- JOINS --"
+puts phrases.shuffle.join(" ")
